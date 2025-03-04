@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh '''
                     node -v
-                    npm -b
+                    npm -v
                 '''
             }
         }
